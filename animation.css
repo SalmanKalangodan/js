@@ -1,0 +1,18 @@
+#main{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    margin-top: 690px;
+    animation-duration: 10s;
+    animation-name: move;
+}
+
+@keyframes move {
+    0%{margin-top: 690px; background-color: aqua; border-radius: 0%;}
+    12.5%{margin-top: 0px; background-color: rgb(93, 93, 187); border-radius: 20%; margin-left: 0px;}
+    25%{margin-top: 0px; background-color: blue; border-radius: 100%;}
+    35%{margin-top: 0px;margin-left: 750px; background-color: aquamarine; border-radius: 0%;  border-end-end-radius: 500px;}
+    50%{margin-top: 0px; margin-left: 1550px; background-color: brown;  border-end-end-radius: 0px; border-end-start-radius: 500px;}
+    75%{margin-top: 690px; margin-left: 1550px; background-color: chartreuse; transform: rotate(360deg); transition-duration: 4s; border-radius: 0px;}
+    100%{margin-top: 690px; margin-left: 0px; background-color: bisque;}
+}
